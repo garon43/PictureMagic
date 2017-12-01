@@ -11,15 +11,14 @@
 
     <title>Jumbotron Template for Bootstrap</title>
 
-    <!--Slider CSS -->
-    <link href="css/foundation.css" rel="stylesheet" type="text/css" >
-	  <link href="css/twentytwenty.css" rel="stylesheet" type="text/css" >
-
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
 
+
+    <link href="css/twentytwenty-no-compass.css" rel="stylesheet" type="text/css" >
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+      <link href="css/style.css" type="text/css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/jumbotron.css" rel="stylesheet">
+    <link href="css/jumbotron.css" type="text/css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -65,14 +64,15 @@
         <h1>Hello, world!</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-        <div class="row" >
-          <div class="col-md-12">
-            <div class="twentytwenty-container">
-              <img src="img/King.jpg" />
-              <img src="img/King-orig.jpg" />
-            </div>
-          </div>
+        <div class="row">
+      <div class="col-md-8">
+        <div class="twentytwenty-container">
+          <img src="img/Pluto.png" />
+          <img src="img/Pluto-Copy.png" />
         </div>
+      </div>
+    </div>
+
       </div>
     </div>
 
@@ -113,14 +113,12 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> -->
-    <!--Slider script -->
     <script src="js/jquery.event.move.js"></script>
     <script src="js/jquery.twentytwenty.js"></script>
     <script>
     $(window).load(function(){
-      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.5});
-      $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.5, orientation: 'vertical'});
+      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+      $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
     });
     </script>
   </body>
