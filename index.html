@@ -16,6 +16,8 @@
     <link href="css/twentytwenty-no-compass.css" rel="stylesheet" type="text/css" >
     <link href="css/style.css" type="text/css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+
 
     <!--  <link href="css/bootstrap.css" type="text/css" rel="stylesheet"> -->
 
@@ -48,15 +50,17 @@
     <!-- End Top Bar -->
 
     <div id="intro" class="callout large primary">
-      <div class="row column text-center">
+      <div class="grid-x column text-center">
+        <div class="cell text-center">
         <h1>Picture Magic</h1>
         <h2 class="subheader">Transform You Pictures From Good To Magical</h2>
         <p>Let's face it.  As parents, we want to make sure that all the best moments from
           our children's lives are captured, but you can't just hire a photographer to follow you and your children around
           everywhere you go.</p>
       </div>
-
-      <div class="row">
+    </div>
+      <div class="grid-x">
+        <div class="cell">
         <div class="twentytwenty-container landscape">
           <img src="img\King.jpg">
           <img src="img\King-orig.jpg">
@@ -64,19 +68,22 @@
       </div>
 
 
+</div>
+
     </div>
 
 
     <!-- We can now combine rows and columns when there's only one column in that row -->
-    <div class="row medium-8 large-7 columns">
+    <div class="grid-x">
+    <div class="cell">
       <div class="blog-post">
         <h3>Awesome blog post title <small>3/6/2015</small></h3>
-        <div class="row">
+
           <div class="twentytwenty-container portrait">
             <img src="img\image2-after.jpg">
             <img src="img\image2-before.jpg">
           </div>
-        </div>
+
         <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
         <div class="callout">
           <ul class="menu simple">
@@ -85,6 +92,7 @@
           </ul>
         </div>
       </div>
+    </div>
     </div>
 
       <div class="blog-post">
@@ -131,7 +139,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>

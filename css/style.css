@@ -1,7 +1,8 @@
 
 
+
 .callout.primary {
-  background-color: #fff;
+  background-color: #FFF;
   background-image: url("../img/collage_header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,6 +10,17 @@
   /* height: 800px; */
   color: #0a0a0a;
   overflow: hidden;
+}
+
+.callout h1 {
+  font-size: 6em;
+  color: #000;
+  font-family: 'Limelight', cursive;
+}
+
+.callout h2 {
+  color: #000;
+
 }
 
 .landscape {
@@ -29,6 +41,12 @@
   height: 800px;
 }
 
+.row {
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*
 .twentytwenty-container {
   max-width: 800px;
@@ -38,6 +56,7 @@
 
 #intro p {
   font-size: 1.2em;
+  font-weight: 600;
   max-width: 800px;
   text-align:left;
   margin: 0 auto 20px auto;
