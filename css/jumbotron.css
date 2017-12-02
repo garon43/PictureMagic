@@ -3,11 +3,3 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
-
-.jumbotron {
-  background-image: url("../img/collage_header.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 800px;
-}
