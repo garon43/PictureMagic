@@ -11,7 +11,15 @@
   overflow: hidden;
 }
 
+.landscape {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
+.portrait {
+  max-width: 531px;
+  margin: 0 auto;
+}
 
 .jumbotron {
   background-image: url("../img/collage_header.jpg");
@@ -21,10 +29,12 @@
   height: 800px;
 }
 
+/*
 .twentytwenty-container {
   max-width: 800px;
   margin: 0 auto;
 }
+*/
 
 #intro p {
   font-size: 1.2em;
