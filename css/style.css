@@ -25,3 +25,10 @@
   max-width: 800px;
   margin: 0 auto;
 }
+
+#intro p {
+  font-size: 1.2em;
+  max-width: 800px;
+  text-align:left;
+  margin: 0 auto 20px auto;
+}
