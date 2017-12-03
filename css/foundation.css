@@ -638,7 +638,7 @@ textarea {
   .grid-x > .medium-12 {
     width: 100%; } }
 
-@media print, screen and (min-width: 64em) {
+@media print, screen and (min-width: 1025px) {
   .grid-x > .large-auto {
     -ms-flex: 1 1 0px;
         flex: 1 1 0px;
