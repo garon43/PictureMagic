@@ -4,7 +4,6 @@
   display: inline-block;
   padding: 5px 10px;
   border-radius: 10px;
-
 }
 
 #intro p {
@@ -16,6 +15,10 @@
   margin: 0 auto 20px auto;
   padding: 5px 10px;
   border-radius: 10px;
+}
+
+.menu-text {
+  font-family: 'Fredericka the Great', cursive;
 }
 
 .custom-margin {
