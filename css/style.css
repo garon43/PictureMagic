@@ -1,11 +1,28 @@
+p {
+  font-size: 1.2em;
+  font-family: 'Quicksand', sans-serif;
+/*  background-color: rgba(255, 255, 255, 0.5); */
+  font-weight:300;
+  text-align:justify;
+  margin: 0 auto 20px auto;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.container-class {
+  position:relative;
+  top: 4rem;
+}
+
 .top-bar {
   background-color: #fff;
   margin: 0;
-  padding: 0;
-  height: 4rem;
-  position:fixed;
+  padding: 10px;
   width: 100%;
   z-index: 100;
+  position:fixed;
+  height: 4rem;
+  border-bottom: 1px solid rgba(10, 10, 10, 0.25);
 }
 
 .top-bar ul {
@@ -14,8 +31,8 @@
 
 #intro {
   padding: 0 0 45px 0;
-  position: relative;
-  top: 4rem;
+  margin-bottom: 0;
+
 }
 
 #intro h1, #intro h2 {
@@ -23,6 +40,19 @@
   display: inline-block;
   padding: 5px 10px;
   border-radius: 10px;
+}
+
+#intro h1 {
+
+  color: #000;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 80px;
+}
+
+#intro h2 {
+  color: #000;
+  font-family: 'Quicksand', sans-serif;
+
 }
 
 #intro p {
@@ -44,6 +74,9 @@
   margin-top: 50px;
 }
 
+.callout {
+border-top: none;
+}
 
 .callout.primary {
   background-color: #feefff;
@@ -52,23 +85,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
   /* height: 800px; */
   color: #0a0a0a;
 
 }
 
-.callout h1 {
 
-  color: #000;
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 80px;
-}
-
-.callout h2 {
-  color: #000;
-  font-family: 'Quicksand', sans-serif;
-
-}
 
 .landscape {
   max-width: 600px;
@@ -94,9 +117,22 @@
     margin-right: auto;
 }
 
-/*
-.twentytwenty-container {
-  max-width: 800px;
-  margin: 0 auto;
+.first-supporting {
+  background-color: #EEE;
+  padding-top: 30px;
 }
-*/
+
+.first-supporting h1 {
+  color: #c32466;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 80px;
+}
+
+.first-supporting h2 {
+  color: #000;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.first-supporting p {
+  font-size: 1.5em;
+}
