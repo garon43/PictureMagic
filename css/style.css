@@ -36,7 +36,7 @@ p {
 }
 
 #intro h1, #intro h2 {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   display: inline-block;
   padding: 5px 10px;
   border-radius: 10px;
@@ -58,7 +58,7 @@ p {
 #intro p {
   font-size: 1.2em;
   font-family: 'Quicksand', sans-serif;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   font-weight:300;
   text-align:justify;
   margin: 0 auto 20px auto;
