@@ -131,8 +131,20 @@ border-top: none;
 .first-supporting h2 {
   color: #000;
   font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
+  text-decoration: underline;
 }
 
 .first-supporting p {
   font-size: 1.5em;
+}
+
+.divider {
+  max-width: 542px;
+}
+
+#lg-h2 {
+  font-size: 3.75rem;
+  color: #c32466;
+  text-decoration: none;
 }
