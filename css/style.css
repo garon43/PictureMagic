@@ -143,6 +143,7 @@ border-top: none;
 .first-supporting p {
   font-size: 1.5em;
   text-align: justify;
+  text-align-last: center;
 }
 
 .divider {
